@@ -1,0 +1,151 @@
+/*------------------------HEADER-----------------------*/
+
+.a-hover{
+	color: white;
+	text-shadow:5px 5px 5px #000000;
+	font-family: "Open Sans";
+	font-style: italic;
+}
+.a-hover:hover{
+	color: black;
+	text-shadow: none;
+}
+.navbar-fixed-top{
+	background-color:black;
+}
+.img-logo{
+	width: 50%;
+}
+.icon-bar {
+	background-color: white;
+}
+.bg-black{
+	background:#2D2735; 
+}
+
+/*--------------------SECTION: SUPERIOR----------------------*/
+.bg-flowers{
+	background: url("../image/header-image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 0%;
+	padding-bottom: 120px;
+}
+.div-central{
+	margin: 120px auto;
+	background: black;
+	width: 60%;
+}
+.h1-superior{
+	font-family: "Courgette";
+	color: #F7BA6A;
+}
+.ul-superior{
+	display: inline-block;
+	list-style: none;
+	margin-left: 10px;
+	font-family: "Open Sans";
+	font-style: italic;
+	font-size: 18px;
+}
+
+/*--------------------SECTION-TIPO-FLORES----------------------------------*/
+
+.bg-tipo-flores{
+	background:url("../image/image7.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 240px; 
+}
+.bg-tipo-flores2{
+	background:url("../image/image3.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 240px; 
+}
+.bg-tipo-flores3{
+	background:url("../image/image2.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 240px; 
+}
+.text-courgette-orange{
+	font-family: "Courgette";
+	color: #F7BA6A;
+}
+.text-courgette-white{
+	font-family: "Open Sans";
+	font-style: italic;
+	color:white;
+}
+
+/*---------------------------SECTION-VIDEO-----------------------*/
+.about {
+	display: block;
+}
+.bg-gris{
+	background: #1C1821;
+}
+.bg-img-video{
+	background: url("../image/image4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 450px; 
+}
+.form {
+	background-color: #1C1821;
+	padding: 20px 0;
+}
+input{
+	height: 30px;
+	width: 90%;
+	background: #2D2735;
+	border-radius: 5px;
+	border: none;
+	padding-left: 5%;
+}
+.bg-img-chica{
+	background: url("../image/kew_gardens_3_500x500.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 480px; 
+}
+.ul-icon-redsocial{
+	color: white;
+	margin-right: 20px;
+	border-radius: 100px;
+	background: #2D2735;
+	padding: 3%;
+}
+iframe{
+	width: 100%;
+}
+/* Responsive */
+
+@media screen and (max-width : 620px) {
+	.about {
+		display: none;
+	}
+	.bg-query{
+		width: 90%;
+	}
+
+	.mb-responsive{
+		margin-bottom: 50px;
+	}
+
+	.bg-img-video{
+		height: 270px;
+	}
+
+	.bg-img-chica{
+		height: 400px;
+	}
+
+	.ul-superior{
+		margin-left: 5px;
+	}
+	.div-central{
+		width: 90%;
+	}
+}
